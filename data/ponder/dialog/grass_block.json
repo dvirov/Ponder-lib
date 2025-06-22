@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "ponder.title",
+    "fallback": "Grass block"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:grass_block"
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Grass block is a common block that can be found in most biomes in the game "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "when mined without silk touch drops dirt"
+      },
+      "width": 150
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": "Close",
+    "width": 50
+  }
+}

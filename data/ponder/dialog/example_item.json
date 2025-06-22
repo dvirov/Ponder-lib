@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "ponder.title",
+    "fallback": "Grass block"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:test_block"
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "this is example for ponder dialog ",
+        "color": "light_purple"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "you need to put your own text here instead",
+        "color": "gold"
+      },
+      "width": 150
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": "Close",
+    "width": 50
+  }
+}

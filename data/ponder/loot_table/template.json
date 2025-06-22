@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{ponder_id:\"NAMESPACE:DIALOGNAME\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
